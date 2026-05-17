@@ -1,0 +1,33 @@
+# API FRAMEWORK
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+
+# ORCHESTRATION
+langchain==0.2.5
+langchain-community==0.2.5
+langchain-google-genai==1.0.6
+
+# LLM & EMBEDDING (versi disesuaikan dengan langchain-google-genai 1.0.6)
+google-generativeai==0.5.4
+
+# VECTOR DATABASE
+chromadb==0.5.3
+
+# PDF PARSER
+pymupdf==1.24.5
+
+# EKSTRAK TABEL
+pdfplumber==0.11.1
+
+# IMAGE PROCESSING
+Pillow==10.3.0
+
+# ENV VARIABLE
+python-dotenv==1.0.1
+
+# VALIDASI DATA
+pydantic==2.7.4
+
+# HTTP CLIENT
+httpx==0.27.0
